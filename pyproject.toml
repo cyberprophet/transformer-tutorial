@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "lstm-tutorial"
+version = "0.1.0"
+description = "machine learning example using LSTM"
+authors = ["cyberprophet <cyberprophet@hanmail.net>"]
+readme = "README.md"
+packages = [{ include = "lstm_tutorial" }]
+
+[tool.poetry.dependencies]
+python = "3.10.2"
+requests = "^2.28.2"
+python-dotenv = "^1.0.0"
+pandas = "^2.0.0"
+numpy = "1.23.5"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+tensorflow = "^2.12.0"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
